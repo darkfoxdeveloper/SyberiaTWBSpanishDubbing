@@ -12,14 +12,21 @@ Abre `Instalar-Syberia.exe`. El instalador se abre en el navegador. Selecciona l
 
 ## Steam Deck
 
-Cambia al modo Escritorio y abre `Instalar-Syberia-SteamDeck`. Si Dolphin pide permiso de ejecución, activa **Es ejecutable** en las propiedades del archivo y vuelve a abrirlo. Puedes encontrar la carpeta del juego desde **Steam → Syberia → Gestionar → Explorar archivos locales**.
+1. Cierra Syberia y cambia al **modo Escritorio**.
+2. Abre en Dolphin la carpeta que contiene `Instalar-Syberia-SteamDeck` y `Syberia-Castellano.zip`. Deja el ZIP sin descomprimir.
+3. Pulsa **F4** para abrir la terminal en esa carpeta y ejecuta:
 
-Si prefieres la terminal, abre Konsole en la carpeta del parche y ejecuta:
+   ```sh
+   chmod +x ./Instalar-Syberia-SteamDeck
+   ./Instalar-Syberia-SteamDeck
+   ```
 
-```sh
-chmod +x ./Instalar-Syberia-SteamDeck
-./Instalar-Syberia-SteamDeck
-```
+   Si el archivo ya tiene permiso de ejecución, basta con la segunda línea. Usa esta ruta si el doble clic abre Discover. Con Steam abierto, **STEAM + X** muestra el teclado en pantalla.
+
+4. El instalador se abre en el navegador. Si el navegador no abre solo, copia la dirección `http://127.0.0.1:…` completa que muestra la terminal y ábrela manualmente. Deja la terminal abierta mientras se instala el parche.
+5. Pulsa **Instalar doblaje**. Si el instalador no detecta la carpeta del juego, encuéntrala en **Steam → Syberia → Gestionar → Explorar archivos locales** y elige la carpeta que contiene `SyberiaTWB.exe`.
+
+También puedes instalar desde la terminal con `./Instalar-Syberia-SteamDeck instalar` y pegar la ruta de esa carpeta cuando te la pida.
 
 ## En el juego
 

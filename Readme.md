@@ -2,7 +2,7 @@
 
 Doblaje hecho por DaRkFox con ayuda de IA.
 
-El parche usa los archivos de la edición de Steam, compilación 8987614. Cierra Syberia y extrae todos los archivos del paquete en la misma carpeta. Deja `Syberia-Castellano.zip` junto al instalador.
+El parche usa los archivos de la edición de Steam, compilación 8987614. Descarga `Syberia-Castellano.zip` y el instalador de tu plataforma desde [Releases](https://github.com/darkfoxdeveloper/SyberiaTWBSpanishDubbing/releases/latest). Cierra Syberia y guarda ambos archivos juntos. Deja el ZIP sin descomprimir.
 
 Si ya instalaste una edición del doblaje, pulsa **Desinstalar** con el ZIP de esa edición antes de instalar esta actualización. La edición corregida incorpora los audios que el motor Wwise del juego puede reproducir.
 
@@ -30,3 +30,9 @@ Si cambias el idioma de las voces durante una partida, vuelve al menú principal
 La actualización incluye conversaciones y llamadas de fondo en el concierto, la mina y la cafetería. Se mezclaron las voces en castellano con el sonido de fondo de cada grabación.
 
 Ilustración de Vaghen del material oficial de Microids incluido con el juego.
+
+## Código fuente
+
+El código fuente está en [`src/`](src/README.md). Incluye el [instalador para Windows y Steam Deck](src/installer/), el [selector de voces en español](src/selector/) y el [exportador del parche Wwise](src/exporter/).
+
+En la [guía de compilación](src/README.md) están los comandos y los archivos locales que necesita el exportador.

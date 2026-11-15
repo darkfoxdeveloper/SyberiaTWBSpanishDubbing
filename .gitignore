@@ -1,1 +1,5 @@
 /Syberia-Castellano.zip
+/build/
+/src/selector/bin/
+/src/selector/obj/
+/src/exporter/__pycache__/

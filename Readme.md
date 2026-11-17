@@ -2,6 +2,8 @@
 
 Doblaje hecho por DaRkFox con ayuda de IA.
 
+![Captura del instalador de Syberia para Windows](./Instalador.png)
+
 El parche usa los archivos de la edición de Steam, compilación 8987614. Descarga `Syberia-Castellano.zip` y el instalador de tu plataforma desde [Releases](https://github.com/darkfoxdeveloper/SyberiaTWBSpanishDubbing/releases/latest). Cierra Syberia y guarda ambos archivos juntos. Deja el ZIP sin descomprimir.
 
 Si ya instalaste una edición del doblaje, pulsa **Desinstalar** con el ZIP de esa edición antes de instalar esta actualización. La edición corregida incorpora los audios que el motor Wwise del juego puede reproducir.
